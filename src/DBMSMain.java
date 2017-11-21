@@ -1,11 +1,8 @@
 /****************************************************************
  * Ryan Allaer, Christopher Bowman, Raden Tonev, Zachary Riegger
- * COSC471 Winter 2011
- * Professor Ikeji
- * DDMS Project Part 1 (Syntax Parser)
+ * COSC471
  * 
- * A basic syntax parsing program that will eventually be used
- * to implement a full DBMS.
+ * A basic syntax parsing program used to implement a full DBMS.
  ****************************************************************/
 import java.util.*;
 import java.io.*;
