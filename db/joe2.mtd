@@ -1,0 +1,4 @@
+108
+Attributes           Types      Length(in Bytes)
+gpa                  float      8               primary key 
+name                 text       100  

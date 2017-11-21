@@ -1,0 +1,47 @@
+create database test;
+
+use test;
+
+create table st (id integer primary key, name text, gpa float);
+
+insert into st values (
+
+1, "Abe", 3.5);
+
+insert into st values (2, "B", 3.0); insert into st values (3, "C", 4.0);
+insert into st values (4, "D", 2.0);
+
+select * from st;
+
+create table prof (pname text, ssn integer);
+
+insert into prof values ("ABE", 11);
+
+insert into prof values ("C", 33);
+
+create table third (x integer);
+
+insert into third values(1);
+
+insert into 
+third values(2);
+
+select name, gpa, ssn from st,prof where pname=name;
+
+select name,ssn from prof,st where gpa=2.0;
+
+select ssn, gpa from
+
+prof, st;
+
+describe prof;
+
+describe all;
+
+update st set gpa=0.00, name="X" where gpa != 4.0;
+
+select * from st;
+
+describe st;
+
+let st2 KEY ssn select name, gpa, ssn from st,prof where pname=name;

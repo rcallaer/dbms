@@ -1,0 +1,73 @@
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+id             name           gpa            
+1              "Abe"          3.5            
+2              "B"            3.0            
+3              "C"            4.0            
+4              "D"            2.0            
+OK
+OK
+OK
+OK
+OK
+OK
+OK
+name           gpa            ssn            
+"C"            4.0            33             
+OK
+ssn            name           
+11             "D"            
+33             "D"            
+OK
+ssn            gpa            
+11             3.5            
+11             3.0            
+11             4.0            
+11             2.0            
+33             3.5            
+33             3.0            
+33             4.0            
+33             2.0            
+OK
+PROF
+Attributes           Types      Length(in Bytes)
+pname                text       100  
+ssn                  integer    4    
+------------------------------------------------
+OK
+PROF
+Attributes           Types      Length(in Bytes)
+pname                text       100  
+ssn                  integer    4    
+------------------------------------------------
+ST
+Attributes           Types      Length(in Bytes)
+id                   integer    4               primary key 
+name                 text       100  
+gpa                  float      8    
+------------------------------------------------
+THIRD
+Attributes           Types      Length(in Bytes)
+x                    integer    4    
+------------------------------------------------
+OK
+OK
+id             name           gpa            
+1              "X"            0.0            
+2              "X"            0.0            
+3              "C"            4.0            
+4              "X"            0.0            
+OK
+ST
+Attributes           Types      Length(in Bytes)
+id                   integer    4               primary key 
+name                 text       100  
+gpa                  float      8    
+------------------------------------------------
+OK
+ERROR - Number of insert values doesn't match table attributes.

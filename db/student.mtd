@@ -1,0 +1,5 @@
+112
+Attributes           Types      Length(in Bytes)
+id                   integer    4    
+name                 text       100  
+gpa                  float      8    

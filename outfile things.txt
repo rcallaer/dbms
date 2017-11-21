@@ -1,0 +1,8 @@
+-select
+-selectWithWhere
+-join maybe
+-describe
+-aggregate
+
+
+-everything else - exceptions
